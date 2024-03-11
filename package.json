@@ -12,7 +12,8 @@
     "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc",
     "prepare": "husky && husky install",
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "precommit":"npm run lint && npm test"
   },
   "dependencies": {
     "react": "^18.2.0",
