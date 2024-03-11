@@ -8,7 +8,8 @@ module.exports = {
         "plugin:react/recommended",
         "plugin:jest/recommended",
         "airbnb",
-        "prettier"
+        "prettier",
+        "plugin:storybook/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
