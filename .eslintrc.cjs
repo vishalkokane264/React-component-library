@@ -17,7 +17,7 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": ["react", "jest"],
+    "plugins": ["react", "jest","@typescript-eslint", "unused-imports"],
     "rules": {
         "no-underscore-dangle": 0,
         "import/extensions": [
@@ -27,6 +27,8 @@ module.exports = {
                 "js": "always",
                 "jsx": "always"
             }
-        ]
+        ],
+        "unused-imports/no-unused-imports-ts": 2,
+
     }
 }
