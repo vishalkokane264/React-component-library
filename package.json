@@ -13,7 +13,7 @@
     "prepare": "husky && husky install",
     "test": "jest",
     "coverage": "jest --coverage",
-    "precommit":"npm run lint && npm test"
+    "precommit": "npm run lint && npm test"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -48,8 +48,8 @@
     "vite": "^5.1.4"
   },
   "husky": {
-    "hooks": { 
+    "hooks": {
       "pre-commit": "npm run precommit"
-    } 
+    }
   }
 }
