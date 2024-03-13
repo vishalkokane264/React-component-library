@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build --outDir dist/app && cp lib/package.json dist/app",
     "preview": "vite preview",
