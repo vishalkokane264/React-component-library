@@ -5,9 +5,9 @@
   "type": "module",
   "homepage": "https://vishal.github.io/react-vite-library",
   "scripts": {
-    "deploy": "gh-pages -d dist/storybook",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc && vite build --outDir dist/app && cp lib/package.json dist/app",
+    "build": "storybook build -o dist/storybook",
     "preview": "vite preview",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
